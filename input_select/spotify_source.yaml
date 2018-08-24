@@ -1,0 +1,6 @@
+spotify_source:
+  name: 'Source:'
+  options:
+    - dot
+    - macbook
+  icon: mdi:speaker-wireless

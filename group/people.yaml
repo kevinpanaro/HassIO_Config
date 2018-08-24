@@ -1,0 +1,7 @@
+Kevin:
+  name: Kevin
+  view: no
+  entities:
+    - device_tracker.kevin
+    - device_tracker.kevin_panaros_iphone_x
+    - device_tracker.kevsmacbook

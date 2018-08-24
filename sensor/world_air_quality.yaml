@@ -1,0 +1,7 @@
+# world air quality sensor
+- platform: waqi
+  token: !secret waqi_api_token
+  locations:
+    - fort collins
+  stations:
+    - CSU Facilities, Colorado

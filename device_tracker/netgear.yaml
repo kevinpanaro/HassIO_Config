@@ -1,0 +1,8 @@
+- platform: netgear
+  host: 192.168.1.1
+  username: admin
+  password: !secret netgear
+  devices:
+    - B8:E8:56:15:53:42
+    - 9C:E3:3F:0A:D5:2B
+  consider_home: 180

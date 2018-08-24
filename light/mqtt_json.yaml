@@ -1,0 +1,10 @@
+- platform: mqtt_json
+  name: LED Strip
+  state_topic: "home/light/ESP_LED"
+  command_topic: "home/light/ESP_LED/set"
+  brightness: true
+  rgb: true
+  effect: true
+  effect_list: [colorfade_slow, colorfade_fast, flash]
+  optimistic: false
+  qos: 0

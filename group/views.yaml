@@ -1,0 +1,21 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.kevin
+    - sun.sun
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_temperature
+    - input_boolean.test
+    - group.music_spotify
+
+garage:
+  view: yes
+  entities:
+    - cover.garage_door
+
+bedroom:
+  view: yes
+  entities:
+    - light.led_strip
+    - media_player.spotify

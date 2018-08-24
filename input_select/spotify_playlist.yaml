@@ -1,0 +1,10 @@
+spotify_playlist:
+  name: 'Playlist:'
+  options:
+    - Discover Weekly
+    - Jazz Vibes
+    - mykp
+    - kev time
+    - blow me
+    - a girl
+  icon: mdi:spotify

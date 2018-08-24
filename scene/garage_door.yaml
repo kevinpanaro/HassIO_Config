@@ -1,0 +1,6 @@
+- name: Open the Garage Door
+  entities:
+    cover.garage_door: on
+- name: Close the Garage Door
+  entities:
+    cover.garage_door: off

@@ -1,0 +1,5 @@
+- platform: mqtt
+  name: "Garage Door"
+  command_topic: "home/cover/GARAGE_COVER/set"
+  state_topic: "home/cover/GARAGE_COVER"
+
