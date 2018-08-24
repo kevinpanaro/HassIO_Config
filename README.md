@@ -45,6 +45,8 @@ MIT
    [alexa]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/alexa>
    [automations]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/automations>
    [cover]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/cover>
+   [configuration.yaml] <https://github.com/kevinpanaro/HassIO_Config/blob/master/configuration.yaml>
+   [customize.yaml] <https://github.com/kevinpanaro/HassIO_Config/blob/master/customize.yaml>
    [device_tracker]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/device_tracker>
    [group]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/group>
    [homekit]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/homekit>
