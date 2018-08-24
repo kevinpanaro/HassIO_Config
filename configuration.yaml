@@ -86,3 +86,4 @@ media_player: !include_dir_merge_list media_player/
 scene: !include_dir_merge_list scene/
 script: !include_dir_named scripts/
 sensor: !include_dir_merge_list sensor/
+zone: !include zone.yaml
