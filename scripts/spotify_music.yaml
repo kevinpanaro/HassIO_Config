@@ -6,6 +6,7 @@ sequence:
     source: >
      {% if is_state("input_select.spotify_source", "dot") %} dot
      {% elif is_state("input_select.spotify_source", "macbook") %} macbook
+     {% elif is_state("input_select.spotify_source", "iphone") %} iphone
      {% endif %}
 - service: media_player.shuffle_set
   data:

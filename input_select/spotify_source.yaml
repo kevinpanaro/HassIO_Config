@@ -3,4 +3,5 @@ spotify_source:
   options:
     - dot
     - macbook
+    - iphone
   icon: mdi:speaker-wireless
