@@ -15,18 +15,17 @@
       message: "The Garage Door Opened"
       data:
         push:
-
 - alias: Alert Lengthy Open Garage Door
   trigger:
     platform: state
     entity_id: cover.garage_door
-    state: 'open'
+    to: 'on'
     for:
       minutes: 30
   action:
     service: notify.ios_kevin_panaros_iphone_x
     data:
-      title: "Garage Door Open"
+      title: "Garage Door"
       message: "The Garage Door has been open for 30 minutes"
       data:
         push:
