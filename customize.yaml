@@ -2,6 +2,7 @@ zone.home:
   radius: 50
 group.kevin:
   entity_picture: /local/kev.jpeg
+  hidden: true
 cover.garage_door:
   device_class: garage
 script.spotify_music:

@@ -2,7 +2,7 @@ default_view:
   view: yes
   icon: mdi:home
   entities:
-    - group.kevin
+    - group.people
     - sun.sun
     - sensor.dark_sky_icon
     - sensor.dark_sky_temperature
