@@ -8,7 +8,7 @@ Here's my Home Assistant configuration files. As you can see, I use folders to o
 
 ### Config Folders
  - [alexa]: All things Alexa. A unique folder structure due to how the alexa smart home component is set up.
- - [automations]: Standard !include, but I'll split these up to have the file name match whats being automated.
+ - [automation]: Standard !include, but I'll split these up to have the file name match whats being automated.
  - [cover]: Any cover here, !include_dir_merge_list, so split into lists of types of covers.
  - [device_tracker]: Same as cover, usually split into the component type
  - [group]: Uses !include_dir_merge_named, and splits up into types of groups
@@ -43,7 +43,7 @@ MIT
 
 
    [alexa]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/alexa>
-   [automations]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/automations>
+   [automation]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/automation>
    [cover]: <https://github.com/kevinpanaro/HassIO_Config/tree/master/cover>
    [configuration.yaml]: <https://github.com/kevinpanaro/HassIO_Config/blob/master/configuration.yaml>
    [customize.yaml]: <https://github.com/kevinpanaro/HassIO_Config/blob/master/customize.yaml>
