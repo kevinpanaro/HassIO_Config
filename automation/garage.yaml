@@ -29,3 +29,18 @@
       message: "The Garage Door has been open for 30 minutes"
       data:
         push:
+- alias: Alert if Garage Open after 9 PM
+  trigger:
+    platform: time
+    at: '21:00:00'
+  condition:
+    condition: state
+    entity_id: cover.garage
+    state: open
+  action:
+    service: notify.ios_kevin_panaros_iphone_x
+    data:
+      title: "Garage Door"
+      message: "Garage Door is Open"
+      data:
+        push:
