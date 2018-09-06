@@ -8,7 +8,7 @@ default_view:
     - sensor.dark_sky_temperature
     - input_boolean.test
     - group.music_spotify
-
+    - sensor.travel_time_to_work
 garage:
   view: yes
   entities:
