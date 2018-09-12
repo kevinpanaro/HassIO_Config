@@ -19,9 +19,8 @@
   trigger:
     platform: state
     entity_id: cover.garage_door
-    to: 'on'
-    for:
-      minutes: 30
+    to: 'open'
+    for: '00:30:00'
   action:
     service: notify.ios_kevin_panaros_iphone_x
     data:
@@ -44,3 +43,20 @@
       message: "Garage Door is Open"
       data:
         push:
+- alias: Close Garage Door on Weekdays
+  trigger:
+    platform: state
+    entity_id: cover.garage_door
+    to: 'open'
+    for: '00:10:00'
+  condition:
+    condition: time
+    weekday:
+      - mon
+      - tue
+      - wed
+      - thu
+      - fri
+  action:
+    service: cover.close_cover
+    entity_id: cover.garage_door
